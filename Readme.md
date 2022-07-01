@@ -13,7 +13,7 @@ IEEE ISBI 2022 paper: [CEUSegNet: A Cross-Modality Lesion Segmentation Network f
 
 Our work can achieve a comparable performance with clinicians on breast lesion and cervical lymphadenopathy segmentation task. More details can refer to our paper.
 
-## FLOPs and Inference-time
+## Inference-time
 | Input size | Time (ms) | MACs(G) | Params(M) |
 | :--------: | :--: | :---: | :----: |
 |128 * 128   | 20.82±2.62 | 12.74 | 9.281 |
