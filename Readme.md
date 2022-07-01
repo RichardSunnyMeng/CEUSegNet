@@ -1,5 +1,5 @@
 # CEUSegNet
-IEEE ISBI 2022 paper: [CEUSegNet: A Cross-Modality Lesion Segmentation Network for Contrast-Enhanced Ultrasound](https://ieeexplore.ieee.org/abstract/document/9761594), a cooperation achievement by researchers from Insitute of Automation CAS and Lanzhou University Second Hospital.
+IEEE ISBI 2022 paper: [CEUSegNet: A Cross-Modality Lesion Segmentation Network for Contrast-Enhanced Ultrasound](https://ieeexplore.ieee.org/abstract/document/9761594), a cooperation achievement by researchers from Institute of Automation CAS and Lanzhou University Second Hospital.
 
 ![overview](https://user-images.githubusercontent.com/57392333/176909137-4ea310ab-7e16-4ae4-b7bc-1d26620ef496.jpg)
 
