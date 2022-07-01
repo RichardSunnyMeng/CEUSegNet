@@ -1,5 +1,5 @@
 # CEUSegNet
-IEEE ISBI 2022 paper: [CEUSegNet: A Cross-Modality Lesion Segmentation Network for Contrast-Enhanced Ultrasound](https://ieeexplore.ieee.org/abstract/document/9761594), a cooperation achievement by researchers from Institute of Automation CAS and Lanzhou University Second Hospital.
+&ensp; &ensp; IEEE ISBI 2022 paper: [CEUSegNet: A Cross-Modality Lesion Segmentation Network for Contrast-Enhanced Ultrasound](https://ieeexplore.ieee.org/abstract/document/9761594), a cooperation achievement by researchers from Institute of Automation CAS and Lanzhou University Second Hospital.
 
 ![overview](https://user-images.githubusercontent.com/57392333/176909137-4ea310ab-7e16-4ae4-b7bc-1d26620ef496.jpg)
 
@@ -11,7 +11,7 @@ IEEE ISBI 2022 paper: [CEUSegNet: A Cross-Modality Lesion Segmentation Network f
 ## Demos
 ![result](https://user-images.githubusercontent.com/57392333/176909977-20e9755b-1fe8-4b88-a278-1a635d1f3779.jpg)
 
-Our work can achieve a comparable performance with clinicians on breast lesion and cervical lymphadenopathy segmentation task. More details can refer to our paper.
+&ensp; &ensp; Our work can achieve a comparable performance with clinicians on breast lesion and cervical lymphadenopathy segmentation task. More details can refer to our paper.
 
 ## Inference-time
 | Input size | Time (ms) | MACs(G) | Params(M) |
@@ -20,4 +20,4 @@ Our work can achieve a comparable performance with clinicians on breast lesion a
 |375 * 375 (origin)   | 68.51±0.41 | 108.51 | 9.281 |
 
 ## Acknowledgement
-Our code is based on [Pytorch-UNet](https://github.com/milesial/Pytorch-UNet). Thanks!
+&ensp; &ensp; Our code is based on [Pytorch-UNet](https://github.com/milesial/Pytorch-UNet). Thanks!
