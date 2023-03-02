@@ -271,8 +271,8 @@ class CEUSegNet(nn.Module):
 
     def forward(self, x):
         # B * 3 * C * W * H
-        x_us = x[:, 0, :, :, :]
-        x_ceus = x[:, 1, :, :, :]
+        x_us = x["us"]
+        x_ceus = x["ceus"]
 
         x1_ceus, x2_ceus, x3_ceus, x4_ceus, x5_ceus = self.CEUS_dowm_branch(x_ceus)
         x1_us, x2_us, x3_us, x4_us, x5_us = self.US_branch(x_us)  # B * C * H * W
@@ -288,6 +288,6 @@ class CEUSegNet(nn.Module):
 
         o = self.CEUS_up_branch(x1, x2, x3, x4, x5) # B * C * H * W
 
-        return o  # B * 1 * H * W
+        return {"logit": o}  # B * 1 * H * W
 
 
