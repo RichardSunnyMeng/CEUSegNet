@@ -3,6 +3,9 @@
 
 ![overview](https://user-images.githubusercontent.com/57392333/176909137-4ea310ab-7e16-4ae4-b7bc-1d26620ef496.jpg)
 
+## How to start?
+Modify *datadir* to your data path first and then run the file *train_helper.py*.
+
 ## Highlights
 - Contrast-Enhanced Ultrasound (CEUS) usually presents two modalities on video frames at the same time, i.e. ultrasound part and contrast-enhanced part.
 - We can determine a rough location for lesion on ultrasound part and then finely sketch the region of interest on contrast-enhanced part.
